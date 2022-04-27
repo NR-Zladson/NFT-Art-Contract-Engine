@@ -7,4 +7,4 @@ This is the contract the is loaded onto the blockchain.
 # Hidden
 This contains the files that are used as placeholders prior to revealing the collection.
 # Collection Creator
-This creates and NFT collection by layers with various options.
+This creates an NFT collection by layers with various options.
