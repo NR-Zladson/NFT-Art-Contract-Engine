@@ -1,6 +1,6 @@
 {
-  "name": "@NerdRagerLLC-erc721-smart-contract",
-  "version": "1.0.0",
+  "name": "@NerdRagerLLC-erc721-full",
+  "version": "0.0.0",
   "private": true,
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
@@ -59,6 +59,6 @@
     "public-sale-open": "hardhat run scripts/6_public_sale_open.ts",
     "public-sale-close": "hardhat run scripts/7_public_sale_close.ts",
     "reveal": "hardhat run scripts/8_reveal.ts",
-    "withdraw": "hardhat run scripts/9_withdraw.ts"
+    "": "hardhat run scripts/9_withdraw.ts"
   }
 }
