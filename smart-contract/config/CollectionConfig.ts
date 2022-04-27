@@ -4,8 +4,8 @@ import * as Marketplaces from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
-  mainnet: Networks.ethereumMainnet,
+  testnet: Networks.polygonTestnet,
+  mainnet: Networks.polygonMainnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
