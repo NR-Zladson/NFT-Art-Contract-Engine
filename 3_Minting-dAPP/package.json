@@ -1,5 +1,5 @@
 {
-    "name": "Nerd Rager LLC Minting dAPP",
+    "name": "@nerdragerllc/nft-erc721-minting-dapp",
     "version": "0.0.2",
     "private": true,
     "devDependencies": {
