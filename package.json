@@ -1,0 +1,14 @@
+{
+  "name": "@nerdragerllc/nft-erc721-collection",
+  "description": "The complete NFT software.",
+  "author": "Zach Ladson <support@nerdragermt.com>",
+  "license": "MIT",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NR-Zladson/NFT-Art-Contract-Engine.git"
+  },
+  "scripts": {
+    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
+  }
+}
