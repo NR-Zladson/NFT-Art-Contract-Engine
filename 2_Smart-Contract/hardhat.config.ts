@@ -82,7 +82,7 @@ task('rename-contract', 'Renames the smart contract replacing all occurrences in
   }
 
   // Replace names in source files
-  replaceInFile(__dirname + '/../minting-dapp/src/scripts/lib/NftContractType.ts', CollectionConfig.contractName, taskArgs.newName);
+  replaceInFile(__dirname + '/../3_Minting-dAPP/src/scripts/lib/NftContractType.ts', CollectionConfig.contractName, taskArgs.newName);
   replaceInFile(__dirname + '/config/CollectionConfig.ts', CollectionConfig.contractName, taskArgs.newName);
   replaceInFile(__dirname + '/lib/NftContractProvider.ts', CollectionConfig.contractName, taskArgs.newName);
   replaceInFile(oldContractFile, CollectionConfig.contractName, taskArgs.newName);

@@ -2,7 +2,7 @@ import '../styles/main.scss';
 
 import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
-import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
+import CollectionConfig from '../../../2_Smart-Contract/config/CollectionConfig';
 
 if (document.title === '') {
   document.title = CollectionConfig.tokenName;

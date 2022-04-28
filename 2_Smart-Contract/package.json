@@ -1,5 +1,5 @@
 {
-  "name": "@NerdRagerLLC-erc721-full",
+  "name": "@nerdragerllc/nft-erc721-smart-contract",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
@@ -59,6 +59,6 @@
     "public-sale-open": "hardhat run scripts/6_public_sale_open.ts",
     "public-sale-close": "hardhat run scripts/7_public_sale_close.ts",
     "reveal": "hardhat run scripts/8_reveal.ts",
-    "": "hardhat run scripts/9_withdraw.ts"
+    "withdraw": "hardhat run scripts/9_withdraw.ts"
   }
 }

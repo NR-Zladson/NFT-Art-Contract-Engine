@@ -1,6 +1,6 @@
 import { utils, BigNumber } from 'ethers';
 import React from 'react';
-import NetworkConfigInterface from '../../../../smart-contract/lib/NetworkConfigInterface';
+import NetworkConfigInterface from '../../../../2_Smart-Contract/lib/NetworkConfigInterface';
 
 interface Props {
   networkConfig: NetworkConfigInterface;

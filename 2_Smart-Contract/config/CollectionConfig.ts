@@ -9,25 +9,25 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  contractName: 'NerdBitzS1',
+  tokenName: 'Nerdbitz Season 1',
+  tokenSymbol: 'NBZ1',
+  hiddenMetadataUri: 'ipfs://QmbgCfUksZ8wdecFX5Kp27gcjtoWyZ1Gs7vtbXjKrtP8f2/hidden.json',
+  maxSupply: 100,
   whitelistSale: {
-    price: 0.05,
+    price: 5,
     maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 0.07,
-    maxMintAmountPerTx: 2,
-  },
-  publicSale: {
-    price: 0.09,
+    price: 10,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  publicSale: {
+    price: 20,
+    maxMintAmountPerTx: 10,
+  },
+  contractAddress: "0x59Efaa11f9871178CE55742dB7F43Bb8cDcCa63f",
+  marketplaceIdentifier: 'nerdbitz-season-1',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
