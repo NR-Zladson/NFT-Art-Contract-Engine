@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Nerdling";
-const description = "It lives inside all of us.";
-const baseUri = "ipfs://QmVPu2WnTxD5Xdq6yaxXKfqgLnLWg7tazEyNE1cazu6gE8";
+const namePrefix = "Nerdbitz";
+const description = "Do not adjust your set. We control the pixels.";
+const baseUri = "ipfs://Qmc2XXGPBgb7kmLK42ek4CgeWYahv6x2sYVbn6HPzAzsDg";
 
 const solanaMetadata = {
   symbol: "NR",
@@ -26,7 +26,7 @@ const layerConfigurations = [
     growEditionSizeTo: 100, //Number of images to create, add to this number to create more variations of already created collections
     layersOrder: [  //Change the Layer names below to match the names of the folders the layers are in
       { name: "Background" },
-      { name: "Nerdling" },
+      { name: "Nerdbitz" },
       { name: "Bow Tie" },
       { name: "Hat" },
       { name: "Cane" },

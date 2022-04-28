@@ -31,7 +31,7 @@ hs_err_pid*
 # Zladson Specific
 coverage.json
 typechain
-NFT Creation/layers/*/*.png
+1_NFT Creation/layers/*/*.png
 
 #Hardhat 
 cache
