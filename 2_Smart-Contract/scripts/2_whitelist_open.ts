@@ -1,7 +1,7 @@
 import { utils } from 'ethers';
 import { MerkleTree } from 'merkletreejs';
 import keccak256 from 'keccak256';
-import CollectionConfig from './../config/CollectionConfig';
+import CollectionConfig from '../config/CollectionConfig';
 import NftContractProvider from '../lib/NftContractProvider';
 import { ethers } from 'hardhat';
 

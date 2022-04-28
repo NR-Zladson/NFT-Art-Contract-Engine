@@ -5,7 +5,7 @@
 import { YourNftToken as ContractType } from '../typechain/index';
 
 import { ethers } from 'hardhat';
-import CollectionConfig from './../config/CollectionConfig';
+import CollectionConfig from '../config/CollectionConfig';
 
 export default class NftContractProvider {
   public static async getContract(): Promise<ContractType> {

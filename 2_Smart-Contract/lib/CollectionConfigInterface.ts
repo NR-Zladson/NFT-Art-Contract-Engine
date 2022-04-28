@@ -1,5 +1,5 @@
-import NetworkConfigInterface from '../lib/NetworkConfigInterface';
-import MarketplaceConfigInterface from '../lib/MarketplaceConfigInterface';
+import NetworkConfigInterface from './NetworkConfigInterface';
+import MarketplaceConfigInterface from './MarketplaceConfigInterface';
 
 interface SaleConfig {
   price: number;

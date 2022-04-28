@@ -1,5 +1,5 @@
 import { utils } from 'ethers';
-import CollectionConfig from './../config/CollectionConfig';
+import CollectionConfig from '../config/CollectionConfig';
 import NftContractProvider from '../lib/NftContractProvider';
 
 async function main() {
