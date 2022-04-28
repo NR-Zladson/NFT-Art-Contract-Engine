@@ -9,6 +9,6 @@
     "url": "https://github.com/NR-Zladson/NFT-Art-Contract-Engine.git"
   },
   "scripts": {
-    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
+    "build-dapp": "cd 2_Smart-Contract; yarn; yarn compile; cd ../3_Minting-dAPP; yarn; yarn build"
   }
 }
